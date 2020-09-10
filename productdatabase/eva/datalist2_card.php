@@ -124,16 +124,16 @@ if ($totalRows > 0) {
     }
 
     .wrap {
-        /* background-position: center; */
+        background-position: c
         background-repeat: no-repeat;
     }
 
     .wrap img {
         width: 100%;
-        height: 100%;
-        object-fit: cover;
-        background-size: cover !Important;
-        background-position: center;
+        height: 250px;
+        object-fit: fill;
+        background-size: fill !Important;
+        background-position: fill;
     }
 </style>
 <?php include __DIR__ . '/../parts/__navbar.php'; ?>
